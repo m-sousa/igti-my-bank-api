@@ -1,0 +1,19 @@
+{
+  "name": "igti-my-bank-api",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "repository": "git@github.com:m-sousa/igti-my-bank-api.git",
+  "author": "Marcos Sousa <marcos.sousa@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
